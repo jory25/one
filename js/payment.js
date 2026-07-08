@@ -1,6 +1,6 @@
 let quantity = 1;
 
-const mealPrice = 300;
+const mealPrice = 150;
 const delivery = 40;
 const discount = 20;
 
