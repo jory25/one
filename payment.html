@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Fresh Bite | Checkout</title>
+
+<link rel="stylesheet" href="css/payment.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>
+<i class="fa-solid fa-leaf"></i>
+Fresh Bite Checkout
+</h1>
+
+</header>
+
+<div class="checkout">
+
+<!-- Customer Details -->
+
+<div class="customer">
+
+<h2>
+<i class="fa-solid fa-user"></i>
+Customer Details
+</h2>
+
+<input
+type="text"
+placeholder="Full Name"
+required>
+
+<input
+type="tel"
+placeholder="Phone Number"
+required>
+
+<textarea
+placeholder="Delivery Address"
+required></textarea>
+
+<input
+type="text"
+placeholder="City">
+
+<textarea
+placeholder="Notes (Optional)"></textarea>
+
+<select>
+
+<option>Payment Method</option>
+
+<option>Cash On Delivery</option>
+
+<option>Visa Card</option>
+
+<option>Vodafone Cash</option>
+
+<option>InstaPay</option>
+
+</select>
+
+<button onclick="window.location.href='success.html'">
+
+<i class="fa-solid fa-bag-shopping"></i>
+
+Place Order
+
+</button>
+
+</div>
+
+<!-- Order Summary -->
+ <div class="summary">
+
+<h2><i class="fa-solid fa-cart-shopping"></i> Order Summary</h2>
+
+<img id="mealImage" src="images/kid2.jpg" alt="Dino Pasta">
+
+<h3 id="mealName">Dino Pasta 🦖</h3>
+
+<p id="mealCalories">🔥 250 Calories</p>
+
+<p id="mealProtein">💪 60g Protein</p>
+
+<hr>
+
+<div class="quantity">
+
+<button type="button" id="minus">-</button>
+
+<span id="qty">1</span>
+
+<button type="button" id="plus">+</button>
+
+</div>
+
+<hr>
+
+<div class="price-row">
+
+<span>Meal Price</span>
+
+<span id="mealPrice">300</span>
+
+</div>
+
+<div class="price-row">
+
+<span>Delivery</span>
+
+<span>40 EGP</span>
+
+</div>
+
+<div class="price-row">
+
+<span>Discount</span>
+
+<span>20 EGP</span>
+
+</div>
+
+<hr>
+
+<div class="total">
+
+<span>Total</span>
+
+<span id="totalPrice">320 EGP</span>
+
+</div>
+
+</div>
+<script src="js/payment.js"></script>
+</body>
+</html>
