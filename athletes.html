@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Athletes | Healthy You</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">🌿 FRESH BITE</div>
+
+<nav>
+
+<a href="index.html">Home</a>
+
+<a href="patient.html">Patients</a>
+
+<a href="athletes.html">Athletes</a>
+
+<a href="kids.html">Kids</a>
+
+<a href="therapy.html">Therapy</a>
+
+</nav>
+
+<div class="icons">
+
+<i class="fa-solid fa-heart"></i>
+
+<i class="fa-solid fa-cart-shopping"></i>
+
+<i class="fa-solid fa-user"></i>
+
+</div>
+
+</header>
+
+<section class="hero-athlete">
+
+<div class="hero-text">
+
+<h1>Fuel Your Performance</h1>
+
+<p>
+
+Healthy protein meals designed for athletes and fitness lovers.
+
+</p>
+
+</div>
+
+<div class="hero-image">
+
+<img src="images/ATHLETS4.jpg" alt="Athlete Image">
+
+</div>
+
+</section>
+
+<section class="meals">
+
+<h2>Recommended Meals</h2>
+
+<div class="meal-container">
+
+<div class="meal">
+
+<img src="images/athlets.jpg">
+
+<h3>دامبل 30</h3>
+
+<p>60g Protein</p>
+
+<span>250 Calories</span>
+
+
+<button class=" meal-price" onclick="window.location.href='payment.html'">300 EGP | Buy Now</button>
+
+
+</div>
+
+<div class="meal">
+
+<img src="images/athlets2.jpg">
+
+<h3>فراشة</h3>
+
+<p>30g Protein</p>
+
+<span>300 Calories</span>
+
+<button class=" meal-price" onclick="window.location.href='payment.html'">300 EGP | Buy Now</button>
+
+
+
+</div>
+
+<div class="meal">
+
+<img src="images/athlets3.jpg">
+
+<h3>دامبل 60</h3>
+
+<p>30g Protein</p>
+
+
+
+<span>350 Calories</span>
+
+<button class=" meal-price" onclick="window.location.href='payment.html'">300 EGP | Buy Now</button>
+
+
+
+</div>
+
+</section>
+
+<section id="calculator" class="calculator">
+
+<h2>Calories Calculator</h2>
+
+<input type="number" id="weight" placeholder="Weight (kg)">
+
+<input type="number" id="height" placeholder="Height (cm)">
+
+<input type="number" id="age" placeholder="Age">
+
+<select id="gender">
+
+<option value="male">Male</option>
+
+<option value="female">Female</option>
+
+</select>
+
+<button onclick="calculateCalories()">
+
+Calculate
+
+</button>
+
+<div id="result"></div>
+
+</section>
+
+<script src="js/calculator.js"></script>
+
+<script src="js/main.js"></script>
+
+</body>
+
+</html>
